@@ -1,0 +1,13 @@
+touch .gitignore
+git config --global user .name Vikramaditya
+git config --global user .email "singhvikramaditya0702@gmail.com"
+git init
+git add .
+git commit -m "Initial  Commit"
+git status #  Just to see
+ ssh-keygen -t rsa -b 4096 -C "singhvikramaditya0702@gmail.com"
+tail <path to id_rsa.pub> # Add this key to your github account
+git remote add origin git@github.com:vcoder10/Calculator.git
+git push origin master
+cat /c/Users/vikram/.ssh/id_rsa.pub
+git push origin master
